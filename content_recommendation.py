@@ -7,7 +7,7 @@ from textblob import TextBlob
 from wordcloud import WordCloud
 import seaborn as sns
 
-final_data = pd.read_csv("C:/Users/hasan\Desktop/sentiment_analysis_content_recommendation/data_sentiment.csv")
+final_data = pd.read_csv("data_sentiment.csv")
 
 def add_emojis(text):
     return f"📝 {text}"
